@@ -11,9 +11,20 @@
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <!-- LINK TO FIREBASE GOES HERE -->
-  
-  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
-  
+<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCPvGsntdZUbOBut_tpIBMsvdMCsmR3UO4",
+    authDomain: "employeeformact.firebaseapp.com",
+    databaseURL: "https://employeeformact.firebaseio.com",
+    projectId: "employeeformact",
+    storageBucket: "",
+    messagingSenderId: "757218052055"
+  };
+  firebase.initializeApp(config);
+</script>
+
 </head>
 
 <body>
@@ -102,7 +113,7 @@
   
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery.js"></script>
-  
+  <script src="employeeformcode.js"></script>
   <!-- Script -->
   <script>
     </body>
